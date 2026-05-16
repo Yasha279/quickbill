@@ -23,7 +23,7 @@ const app = express();
 app.use(helmet());
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || 'https://quickbill-zdr4.vercel.app',
+    origin: process.env.CLIENT_URL || 'https://quickbill-zkai.vercel.app',
     credentials: true,
   })
 );
